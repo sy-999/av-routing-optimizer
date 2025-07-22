@@ -29,7 +29,7 @@ Autonomous Vehicles (AVs) require real-time, adaptive decision-making in dynamic
 ---
 
 ##  Repository Structure
-
+'''
 📁 av-routing-optimizer/
 ├── baseline_tests/                  # Q-learning vs Fixed vs Dijkstra comparison
 │   ├── Qlearning/
@@ -47,7 +47,7 @@ Autonomous Vehicles (AVs) require real-time, adaptive decision-making in dynamic
 ├── matlab_tools/                   # Scripts for result visualization
 └── README.md            ← Overview of the main repository and links to result summaries
 
-
+'''
 
 
 ---
