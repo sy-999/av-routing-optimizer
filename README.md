@@ -127,9 +127,9 @@ Three configurations were tested:
 
 
 | Metric                           |       CPU (Python)	  |   FPGA (C++ / PL)   |
-| ------- | -------------------- | ----------------------- | --------------------- |
-| Execution Time (100K ops)  |      0.0768 sec      |	  0.0010 sec     |
-| Speedup		 |             –              |       ×74.3 faster     |   
+| ------------------------------ | ----------------------- | --------------------- |
+| **Execution Time (100K ops)**  |      0.0768 sec      |	  0.0010 sec     |
+| **Speedup	**	 |             –              |       ×74.3 faster     |   
 
 * Folder: `isolated_acceleration` 
 ✅ FPGA dramatically accelerates Q-table updates via hardware parallelism, Suitable for real-time decision-making in latency-critical AV routing.
