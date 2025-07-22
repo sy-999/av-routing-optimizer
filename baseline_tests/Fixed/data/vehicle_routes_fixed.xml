@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-30 15:08:00 by Eclipse SUMO GUI Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="osm.rou.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="vehicle_routes_fixed.xml"/>
+    </output>
+
+    <gui_only>
+        <gui-settings-file value="osm.setting.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="fixed_flow.0" type="V_0" depart="100.00" arrival="156.00">
+        <route edges="E0 E21 E22 E23 E16 E17 E18 E19"/>
+    </vehicle>
+
+</routes>

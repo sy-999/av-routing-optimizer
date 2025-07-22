@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-28 18:01:08 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+	
+	<route id="r_0" edges="E0"/>
+	
+	<route id="fixed" edges="E0 E21 E22 E23 E16 E17 E18 E19"/>
+	
+
+	<vType id="fast_car" accel="3" decel="6" maxSpeed="10"/>
+    <vType id="slow_car" accel="1" decel="2" maxSpeed="3"/>
+	
+	
+
+	
+	
+	<flow id="first_flow_0" type="slow_car" begin="0" end="3000" number="101"  from="E5" to="E24"/>
+	<flow id="first_flow_1" type="slow_car" begin="0" end="3000" number="105"  from="E5" to="E29"/>
+	<flow id="first_flow_2" type="slow_car" begin="0" end="3000" number="109"  from="E5" to="E34"/>
+	<flow id="first_flow_3" type="slow_car" begin="0" end="3000" number="109"  from="E15" to="E34"/>
+	
+	<flow id="first_flow_4" type="fast_car" begin="0" end="3000" number="51"  from="E25" to="E4"/>
+	<flow id="first_flow_5" type="fast_car" begin="0" end="3000" number="55"  from="E25" to="E14"/>
+	<flow id="first_flow_6" type="fast_car" begin="0" end="3000" number="59"  from="E30" to="E14"/>
+	<flow id="first_flow_7" type="fast_car" begin="0" end="3000" number="59"  from="E35" to="E14"/>
+		
+		
+	<flow id="second_flow_0" type="fast_car" begin="3010" end="6000" number="101"  from="E5" to="E24"/>
+	<flow id="second_flow_1" type="fast_car" begin="3010" end="6000" number="105"  from="E5" to="E29"/>
+	<flow id="second_flow_2" type="fast_car" begin="3010" end="6000" number="109"  from="E5" to="E34"/>
+	<flow id="second_flow_3" type="fast_car" begin="3010" end="6000" number="109"  from="E15" to="E34"/>
+	
+	<flow id="second_flow_4" type="slow_car" begin="3010" end="6000" number="51"  from="E25" to="E4"/>
+	<flow id="second_flow_5" type="slow_car" begin="3010" end="6000" number="55"  from="E25" to="E14"/>
+	<flow id="second_flow_6" type="slow_car" begin="3010" end="6000" number="59"  from="E30" to="E14"/>
+	<flow id="second_flow_7" type="slow_car" begin="3010" end="6000" number="59"  from="E35" to="E14"/>
+	
+	
+	<flow id="thrid_flow_0" type="slow_car" begin="6010" end="10000" number="101"  from="E20" to="E4"/>
+	<flow id="thrid_flow_1" type="slow_car" begin="6010" end="10000" number="103"  from="E30" to="E9"/>
+	<flow id="thrid_flow_2" type="slow_car" begin="6010" end="10000" number="104"  from="E35" to="E39"/>
+	<flow id="thrid_flow_3" type="slow_car" begin="6010" end="10000" number="95"  from="E5"  to="E24"/>
+	<flow id="thrid_flow_4" type="slow_car" begin="6010" end="10000" number="97"  from="E15" to="E34"/>	
+	<flow id="thrid_flow_5" type="fast_car" begin="6010" end="10000" number="100"  from="E10" to="E14"/>
+	
+	
+	
+	
+	
+	
+</routes>

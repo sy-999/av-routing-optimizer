@@ -1,0 +1,6 @@
+<additional>
+    <deviceRerouting id="disableRerouting" probability="0">
+        <param key="period" value="0" />
+        <param key="adaptation-steps" value="0" />
+    </deviceRerouting>
+</additional>
