@@ -105,7 +105,7 @@ Three configurations were tested:
 | Q-Learning   | 63.75           | 637.76           | 14.14         | 217,308.11        | 69,311.40             |
 
 * Folder: `baseline_tests`
-** Subdirectories contain raw data (`data/`), simulation outputs (`results/`), and source code (`src/`).
+* Subdirectories contain raw data (`data/`), simulation outputs (`results/`), and source code (`src/`).
 ✅ Q-learning outperformed both Fixed and SUMO Default methods, achieving the shortest travel time, lowest time loss, and reduced CO₂ and fuel consumption.
 -
 
@@ -118,7 +118,7 @@ Three configurations were tested:
 | **Raspberry Pi + CPU**  | 68.45           | 638.62           | 19.03         |
 
 
-* Folder: `core_system` 
+* Folder: `core_system`
 ✅ The Raspberry Pi setup adds slight delay due to communication latency with the external CPU, simulating a realistic MEC offloading scenario.
 
 -
