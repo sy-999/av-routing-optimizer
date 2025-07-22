@@ -31,21 +31,22 @@ Autonomous Vehicles (AVs) require real-time, adaptive decision-making in dynamic
 ##  Repository Structure
 
 📁 av-routing-optimizer/
-├── baseline_tests/
-│   ├── Qlearning/
-│   ├── Fixed/
-│   ├── Dijkstra/
-│   └── README.md ← Summary of Results – Experiment 1
-├── isolated_acceleration/
-│   ├── CPU/
-│   ├── FPGA/
-│   └── README.md ← Summary of Results – Experiment 3
-├── core_system_architecture/
-│   ├── CPU/
-│   ├── FPGA/
-│   └── RaspberryPi/
-├── matlab_tools/
-└── README.md ←Overview of the main repository and links to result summaries
+├── baseline_tests/                  # Q-learning vs Fixed vs Dijkstra comparison
+│   ├── Qlearning/
+│   ├── Fixed/
+│   ├── Dijkstra/
+│   └── README.md         ← Summary of Results – Experiment 1
+├── isolated_acceleration/          # Standalone CPU vs FPGA benchmark
+│   ├── CPU/
+│   ├── FPGA/
+│   └── README.md         ← Summary of Results – Experiment 3
+├── core_system/                    # MEC architecture combining Raspberry Pi, CPU, FPGA
+│   ├── CPU/
+│   ├── FPGA/
+│   └── RaspberryPi/
+├── matlab_tools/                   # Scripts for result visualization
+└── README.md            ← Overview of the main repository and links to result summaries
+
 
 
 
