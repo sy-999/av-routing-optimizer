@@ -161,7 +161,7 @@ Sooyeon Kim (2024). Latency Optimization in Autonomous Vehicle Routing Using MEC
 
 📩 Contact
 Sooyeon Kim
-sienna_6562@gmail.com
+sienna6562@gmail.com
 
 
 
